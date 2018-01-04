@@ -110,9 +110,16 @@ function getLargeImage(item) { return "https://m.media-amazon.com/images/G/01/mo
 //TODO: Replace this data with your own.
 //=========================================================================================================================================
 const data = [
-                {AnimalName: "Cat", AnimalSound: "meow"},
-                {AnimalName: "Bird", AnimalSound: "chirp"}
-            ];
+    {AnimalName: "Bird", AnimalSound: "chirp"},
+    {AnimalName: "Cat", AnimalSound: "meow"},
+    {AnimalName: "Cow", AnimalSound: "moo"},
+    {AnimalName: "Frog", AnimalSound: "ribbit"},
+    {AnimalName: "Duck", AnimalSound: "quack"},
+    {AnimalName: "Dog", AnimalSound: "woof"},
+    {AnimalName: "Bird", AnimalSound: "chirp"},
+    {AnimalName: "Chicken", AnimalSound: "coo"},
+    {AnimalName: "Rooster", AnimalSound: "cock a doodle doo"},
+];
 
 //=========================================================================================================================================
 //Editing anything below this line might break your skill.
