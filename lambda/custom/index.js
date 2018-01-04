@@ -118,7 +118,7 @@ const data = [
     {AnimalName: "Dog", AnimalSound: "woof"},
     {AnimalName: "Bird", AnimalSound: "chirp"},
     {AnimalName: "Chicken", AnimalSound: "coo"},
-    {AnimalName: "Rooster", AnimalSound: "cock a doodle doo"},
+    {AnimalName: "Rooster", AnimalSound: "cock a doodle doo"}
 ];
 
 //=========================================================================================================================================
