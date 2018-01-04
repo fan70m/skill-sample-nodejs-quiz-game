@@ -1,7 +1,7 @@
 {
-  "name": "StatesQuiz",
+  "name": "AnimalQuiz",
   "version": "1.0.0",
-  "description": "A quiz about states and their capitals.",
+  "description": "A quiz about animal and their sound.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
