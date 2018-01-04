@@ -110,7 +110,6 @@ function getLargeImage(item) { return "https://m.media-amazon.com/images/G/01/mo
 //TODO: Replace this data with your own.
 //=========================================================================================================================================
 const data = [
-                {StateName: "Wyoming",        Abbreviation: "WY", Capital: "Cheyenne",       StatehoodYear: 1890, StatehoodOrder: 44 }
                 {AnimalName: "Cat", AnimalSound: "meow"},
                 {AnimalName: "Bird", AnimalSound: "chirp"}
             ];
@@ -253,7 +252,7 @@ const quizHandlers = Alexa.CreateStateHandler(states.QUIZ,{
 
         response += getAnswer(property, item);
 
-        if (this.attributes["counter"] < 10)
+        if (this.attributes["counter"] < 4)
         {
             response += getCurrentScore(this.attributes["quizscore"], this.attributes["counter"]);
             this.attributes["response"] = response;
